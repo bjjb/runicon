@@ -1,0 +1,9 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 2em;
+  font-family: "San Francisco", Roboto, Noto, sans-serif;
+  color: #777;
+}
