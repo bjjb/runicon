@@ -6,17 +6,14 @@ all		= index.html style.css app.js index.js
 
 all: $(all)
 
-index.html: index.pug
-	$(cake) index.html
+%.html: %.pug
+	$(cake) $@
 
-style.css: style.styl
-	$(cake) style.css
+%.css: %.styl
+	$(cake) $@
 
-app.js: app.coffee
-	$(cake) app.js
-
-index.js: index.coffee
-	$(cake) index.js
+%.js: %.coffee
+	$(cake) $@
 
 clean:
 	rm -f $(all)
