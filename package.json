@@ -23,6 +23,10 @@
   },
   "homepage": "https://github.com/bjjb/runicon#readme",
   "devDependencies": {
-    "coffee-script": "^1.12.7"
+    "coffee-script": "^1.12.7",
+    "forbair": "^0.0.2"
+  },
+  "dependencies": {
+    "npm": "^5.8.0"
   }
 }
